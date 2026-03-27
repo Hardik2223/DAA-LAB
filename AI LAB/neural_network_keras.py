@@ -1,6 +1,7 @@
 try:
     import tensorflow as tf
-    from tensorflow import keras
+    import tensorflow as tf
+    model = tf.keras.Sequential()
 except ImportError:
     tf = None
 
